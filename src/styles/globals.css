@@ -1,0 +1,225 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #f2f2fb;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+overflow-x: hidden;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+.logotop img{
+  width:50%;
+}
+
+.bgclrbc{
+  background-color:#1135e517;
+}
+  .image-container img {
+   width:100%;
+  }
+
+
+  @media (max-width: 390px) {
+    .email-text {
+      display: none;
+    }
+  }
+  
+  .iconstop {
+    margin-bottom: 92px;
+}
+  .carousel-wrapper {
+    width: 100%; /* Full width */
+    max-height: 430px; /* Limit the height */
+    overflow: hidden;
+}
+
+.carousel-wrapper img {
+    width: 100%; /* Full width for images */
+    height: 100%; /* Ensure images fill the carousel height */
+    object-fit: cover; /* Scale images to cover the carousel area */
+}
+
+.carousel.carousel-slider .control-arrow {
+  top:0px !important;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+}
+.carousel .control-prev.control-arrow:before {
+  border-right: 8px solid #fff;
+  position: relative;
+  /* bottom: 100px; */
+ 
+
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 8px solid #fff;
+  position: relative;
+  /* bottom: 100px; */
+
+
+}
+.carousel.carousel-slider .control-arrow:hover {
+  background:transparent !important;
+}
+
+.textboldl a{
+  font-weight:500 !important;
+}
+
+.marquee {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  background-color:#1135e517;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding:10px 2px;
+}
+
+.blink {
+  display: inline-block;
+  animation: marquee 20s linear infinite, blink 1s linear infinite;
+}
+
+/* Marquee effect */
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+/* Blinking effect */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0;
+  }
+}
+
+
+@media (max-width: 767px) and (min-width: 400px) {
+  .mt-10.relative.overflow-hidden.rounded-lg.shadow-lg.hover\:shadow-xl.transition-shadow.duration-300{
+     margin: 10px 120px;
+  }
+}
+
+.feature-box {
+  position: relative;
+  overflow: hidden;
+  background-color: #fff;
+  transition: background 0.5s ease-in-out;
+}
+
+.feature-box:hover {
+  background: linear-gradient(to top, #00c6ff, #0072ff); /* Background color change from bottom to top */
+}
+
+.feature-box::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 255, 0.3);
+  animation: float 1.5s infinite ease-in-out;
+}
+
+.feature-box::after {
+  content: '';
+  position: absolute;
+  top: 70%;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 255, 0.2);
+  box-shadow: 0 0 20px rgba(0, 0, 255, 0.3);
+  animation: float 2s infinite ease-in-out;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+
+.btn-01 {
+  /* text-align: left; */
+  border: 1px solid;
+  border-radius: 0 349px;
+}
+.btn-01:hover {
+background-color:#1f2937;
+text-decoration:none;
+}
+.btn-01:hover a {
+  color: #fff; 
+  text-decoration:none;
+  font-weight:bold;
+}
+.footer-one__top-text:before {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  bottom: 3px;
+  width: 4px;
+  background: #0ab9ff;
+  content: "";
+}
+.marqimg img{
+width:20%;
+}
+.blink1 {
+  display: inline-block;
+  white-space: nowrap; /* Keeps the text in a single line */
+  animation: scroll-right 10s linear infinite;
+}
+
+/* Keyframes for the scrolling effect */
+@keyframes scroll-right {
+  100% {
+    transform: translateX(100%);
+  }
+  0% {
+    transform: translateX(-100%);
+  }
+}
