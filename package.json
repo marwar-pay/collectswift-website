@@ -1,5 +1,5 @@
 {
-  "name": "zanithpay",
+  "name": "collectswift",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -20,6 +20,7 @@
     "react-countup": "^6.5.3",
     "react-dom": "^18",
     "react-responsive-carousel": "^3.2.23",
+    "sharp": "^0.33.5",
     "swiper": "^11.1.14",
     "tweakpane": "^4.0.4"
   },

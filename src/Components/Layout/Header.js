@@ -30,8 +30,8 @@ const Header = () => {
           <div className="flex items-center space-x-4 ">
             <div className="text-xs sm:text-xsm text-gray-900 text-white">
               <FontAwesomeIcon icon={faEnvelope} className="mr-2 text-black text-base" size="sm" />
-              <Link href="mailto:support@zanithpay.com" className="email-text text-black text-sm">
-                support@zanithpay.com
+              <Link href="mailto:support@collectswift.com" className="email-text text-black text-sm">
+                support@collectswift.com
               </Link>
             </div>
 
@@ -79,9 +79,9 @@ const Header = () => {
               {isDropdownOpen && (
                 <div className="absolute left-0 w-40 bg-white shadow-lg z-10">
                   <Link href="https://merchant.collectswift.com/" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
-                    User Login
+                    User Login 
                   </Link>
-                  <Link href="https://retailor.zanithpay.com/login" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
+                  <Link href="https://retailer.collectswift.com/login" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
                     Retailor Login
                   </Link>
                   <Link href="https://admin.collectswift.com" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">

@@ -19,7 +19,7 @@ const Contact = () => {
           {[
             { icon: faMapLocationDot, title: "Office Address", content: "A-12 2nd Floor Shree Kanhaiya Mansion, Acharya Vino Vabhave Nagar, Jaipur, Rajasthan, 302021" },
             { icon: faPhoneVolume, title: "Call Us", content: "+91-9509494310" },
-            { icon: faEnvelope, title: "Email Us", content: "support@zanithpay.com", link: "mailto:support@zanithpay.com" }
+            { icon: faEnvelope, title: "Email Us", content: "support@collectswift.com", link: "mailto:support@collectswift.com" }
           ].map((item, index) => (
             <motion.div
               key={index}

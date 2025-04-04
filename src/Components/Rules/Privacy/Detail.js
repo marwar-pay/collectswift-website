@@ -8,12 +8,12 @@ const PrivacyPolicy = () => {
       <div className="bg-white rounded-lg shadow-lg p-8">
         <h3 className="text-2xl font-semibold mb-4">Privacy Policy</h3>
         <p className="mb-4">
-          Welcome to the Privacy Policy of ZanithPay. Protecting your privacy is a top priority for us. This policy outlines how we collect, use, and safeguard your personal information when you interact with our products and services.
+          Welcome to the Privacy Policy of collectswift. Protecting your privacy is a top priority for us. This policy outlines how we collect, use, and safeguard your personal information when you interact with our products and services.
         </p>
 
         <h4 className="text-lg font-semibold mt-6">Information Collection</h4>
         <p className="mb-4">
-          At ZanithPay, we collect information from you to enhance your experience with our services. This includes details such as your preferences for mobile recharges, preferred travel options, and favorite deals or offers. We gather this information through your interactions with our platform.
+          At collectswift, we collect information from you to enhance your experience with our services. This includes details such as your preferences for mobile recharges, preferred travel options, and favorite deals or offers. We gather this information through your interactions with our platform.
         </p>
 
         <h4 className="text-lg font-semibold mt-6">Technical Information</h4>
@@ -33,7 +33,7 @@ const PrivacyPolicy = () => {
 
         <h4 className="text-lg font-semibold mt-6">Data Security</h4>
         <p className="mb-4">
-          We prioritize the security of your personal information. As a GeoTrust certified service, ZanithPay employs rigorous security measures to protect your data from unauthorized access, ensuring a safe environment for your online transactions.
+          We prioritize the security of your personal information. As a GeoTrust certified service, collectswift employs rigorous security measures to protect your data from unauthorized access, ensuring a safe environment for your online transactions.
         </p>
 
         <h4 className="text-lg font-semibold mt-6">Data Retention</h4>
@@ -47,7 +47,7 @@ const PrivacyPolicy = () => {
         </p>
 
         <p className="mt-4">
-          For further inquiries regarding our Privacy Policy or to exercise your rights under applicable data protection laws, please contact ZanithPay.
+          For further inquiries regarding our Privacy Policy or to exercise your rights under applicable data protection laws, please contact collectswift.
         </p>
       </div>
     </div>

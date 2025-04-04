@@ -49,7 +49,7 @@ const Footer = () => {
                 <ul className="space-y-2">
                   <li><Link href="tel:+91-9509494310" className="text-gray-600 hover:text-blue-500"><FontAwesomeIcon icon={faPhoneVolume} className="mr-2" /> +91-**********</Link></li>
                   <li className="text-gray-600"><FontAwesomeIcon icon={faMapLocationDot} className="mr-2" /> A-12 2nd Floor, Shree Kanhaiya Mansion, Jaipur, Rajasthan, 302021</li>
-                  <li><Link href="mailto:support@zanithpay.com" className="text-gray-600 hover:text-blue-500"><FontAwesomeIcon icon={faEnvelope} className="mr-2" /> support@CollectSwift.com</Link></li>
+                  <li><Link href="mailto:support@collectswift.com" className="text-gray-600 hover:text-blue-500"><FontAwesomeIcon icon={faEnvelope} className="mr-2" /> support@CollectSwift.com</Link></li>
                 </ul>
               </div>
             </div>
@@ -170,8 +170,8 @@ export default Footer;
 //                     <FontAwesomeIcon icon={faMapLocationDot} className="mr-2" /> A-12 2nd Floor Shree Kanhaiya Mansion, Acharya Vino Vabhave Nagar, Vaishali Nagar, Jaipur, Jaipur, Rajasthan, 302021
 //                   </li>
 //                   <li>
-//                     <Link href="mailto:support@zanithpay.com" className="text-white">
-//                       <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> support@zanithpay.com
+//                     <Link href="mailto:support@collectswift.com" className="text-white">
+//                       <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> support@collectswift.com
 //                     </Link>
 //                   </li>
 //                 </ul>
@@ -184,7 +184,7 @@ export default Footer;
 //         <div className="container mx-auto">
 //           <div className="row flex justify-between items-center">
 //             <div className="col-md-6 text-white">
-//             ZanithPay PRIVATE LIMITED © {currentYear}</div>
+//             collectswift PRIVATE LIMITED © {currentYear}</div>
 //             <div className="col-md-6">
 //               <ul className="footer-social flex space-x-4 justify-end">
 //                 <li>

@@ -48,7 +48,7 @@ export default WhyChooseUs;
 //       <h2 className="text-3xl font-bold">Why Choose Us</h2>
 //       <hr className="w-16 mx-auto my-4 border-b-2 border-black" />
 //       <p className="text-lg mb-12">Our features that make Us Different</p>
-//       <p>Having worked on numerous projects, we at ZanithPay have gained unmatched business and technological expertise. We have built a large pool of knowledge that we apply to deliver solutions that meet client`s needs, expectation and budget.</p>
+//       <p>Having worked on numerous projects, we at collectswift have gained unmatched business and technological expertise. We have built a large pool of knowledge that we apply to deliver solutions that meet client`s needs, expectation and budget.</p>
 
 //       {/* Feature Grid */}
 //       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-4 md:px-8 mt-20" >

@@ -23,7 +23,7 @@ const servicesData = [
   {
     title: "Recharge",
     content:
-      "ZanithPay currently provides recharge facilities to all leading telecom operators like BSNL, Reliance-Jio, Airtel, Vodafone, Idea, Telenor, etc.",
+      "collectswift currently provides recharge facilities to all leading telecom operators like BSNL, Reliance-Jio, Airtel, Vodafone, Idea, Telenor, etc.",
     image: img3,
   },
   {

@@ -68,7 +68,7 @@ export default MissionSection;
 //                     <div className="lg:w-1/2 lg:pl-12">
 //                         <div className="mb-6">
 //                             <div className="text-left pb-5">
-//                             <h2 className="text-3xl font-bold pb-2">ZanithPay Mission</h2>
+//                             <h2 className="text-3xl font-bold pb-2">collectswift Mission</h2>
 //                             <hr className="w-20  text-left  border-b-2 border-black" />
 //                             </div>
 //                             <h2 className="mt-4 text-2xl font-bold">
