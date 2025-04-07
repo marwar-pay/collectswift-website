@@ -32,7 +32,7 @@ const CounterSection = () => {
                     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 p-4">
                         <div className="flex flex-col items-center">
                             <FontAwesomeIcon icon={faSmile} className="text-4xl mb-2" />
-                            <div className="text-5xl font-bold"><span className="counter"><CountUp delay={5} end={15000} /></span>%</div>
+                            <div className="text-5xl font-bold"><span className="counter"><CountUp delay={5} end={15000} /></span>+</div>
                             <h4 className="font-medium mt-2">Satisfied Clients</h4>
                         </div>
                     </div>
