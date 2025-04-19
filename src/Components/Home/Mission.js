@@ -29,13 +29,13 @@ const MissionSection = () => {
                         </h2>
                         <div className="mt-4 border-l-4 border-blue-500 pl-4 bg-gray-100 p-4 rounded-lg shadow-sm">
                             <p>
-                            At CollectSwift, we are committed to building innovative applications that align with the latest technology and exceed customer expectations. Our focus is on delivering high-quality solutions with reliability, cost-effectiveness, and timely execution, ensuring seamless service at every stage..
+                            At CollectSwift, we are committed to building innovative applications that align with the latest technology and exceed customer expectations. Our focus is on delivering high-quality solutions with reliability, cost-effectiveness, and timely execution, ensuring seamless service at every stage.
                             </p>
                         </div>
                         <ul className="list-disc list-inside mt-6 text-gray-700">
-                            <li className="mb-2">5+ Years Experience in Telecom and Fintech Industry.</li>
+                            <li className="mb-2">5+ Years Experience in Fintech Industry.</li>
                             <li className="mb-2">Round the Clock Support.</li>
-                            <li className="mb-2">24/7 Billing Available for Recharge Bill Payment and Money Transfer Service.</li>
+                            <li className="mb-2">24/7 Services Available for Payment and Money Transfer Service.</li>
                             <li className="mb-2">Best Revenue Sharing of Industry.</li>
                         </ul>
                     </div>

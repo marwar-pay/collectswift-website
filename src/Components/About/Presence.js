@@ -26,13 +26,10 @@ const OurPresence = () => {
             Our Presence
           </h2>
           <p className="text-lg text-gray-600 leading-relaxed mb-4">
-          CollectSwift Pvt Ltd provides seamless fintech solutions, including Recharge, Money Transfer, 
-          Bus & Flight Booking, and more – ensuring secure and hassle-free transactions.
+          At CollectSwift Pvt Ltd, we specialize in delivering cutting-edge fintech solutions designed to simplify and secure financial transactions. Our platform supports a wide range of services including instant money transfers, utility payments, recharges, and more — all with a strong focus on speed, reliability, and user convenience.
           </p>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Our B2B services ensure high margins and additional benefits across
-            multiple telecom and DTH operators, making it easier for businesses
-            to grow.
+          Our B2B services are built to scale, offering high margins, exclusive partner benefits, and multi-user support — making it easier than ever for businesses to expand their offerings, increase profitability, and serve their customers with confidence.
           </p>
         </div>
       </div>
