@@ -9,19 +9,19 @@ import img5 from "../../assets/images/aeps.png";
 
 const servicesData = [
   {
-    title: "BBPS",
+    title: "Reporting and Analytics",
     content:
-      "The Bharat bill payment system is a Reserve Bank of India (RBI) conceptualised system driven by National Payments Corporation of India (NPCI).",
+      "We are offer dashboards and reporting tools that provide insights into sales performance, transaction history, and customer behavior, aiding in business decision-making.",
     image: img1,
   },
+  // {
+  //   title: " Integration and Developer Tools",
+  //   content:
+  //     "They offer APIs, SDKs, and plugins to integrate payment processing into websites, mobile apps, and e-commerce platforms, facilitating seamless transactions.",
+  //   image: img2,
+  // },
   {
-    title: "PAN Card",
-    content:
-      "A PAN card is a document that no taxpayer can do without. Besides being compulsory in order to file your Income Tax returns.",
-    image: img2,
-  },
-  {
-    title: "Recharge",
+    title: "Multi-Channel Payment Acceptance",
     content:
       "collectswift currently provides recharge facilities to all leading telecom operators like BSNL, Reliance-Jio, Airtel, Vodafone, Idea, Telenor, etc.",
     image: img3,
@@ -29,57 +29,59 @@ const servicesData = [
   {
     title: "Money Transfer",
     content:
-      "We offer high-security instant money transfer API with free API integration. Transfer money online at any time from anywhere in India.",
+      "We offer high security instant money transfer API with free API integration. Use our API and transfer online money at any time from anywhere in India.",
     image: img4,
   },
   {
-    title: "AEPS",
+    title: "Security and Fraud Prevention",
     content:
-      "AEPS enables secure payments using Aadhaar number and biometric authentication.",
+      "Encryption: Securing data during transmission.Monitoring transactions for suspicious activity.",
     image: img5,
   },
 ];
 
 const Service = () => {
   return (
-    <section className="relative py-16 px-6 bg-gradient-to-br from-blue-50 to-white">
-      <div className="absolute inset-0 bg-white opacity-40 blur-2xl"></div>
-
+    <section className="relative py-20 px-6 bg-gradient-to-br from-blue-50 to-white">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
         transition={{ duration: 0.8 }}
         className="relative container mx-auto text-center"
       >
-        <h1 className="text-4xl font-extrabold text-gray-800 mb-6 tracking-wide">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 mb-4 tracking-tight">
           🚀 Our B2B Services
         </h1>
-        <div className="w-16 mx-auto mb-8 border-b-4 border-blue-500"></div>
+        <div className="w-24 mx-auto mb-12 border-b-4 border-blue-500"></div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {servicesData.map((service, index) => (
             <motion.div
               key={index}
-              initial={{ opacity: 0, scale: 0.9 }}
-              animate={{ opacity: 1, scale: 1 }}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
-              whileHover={{ scale: 1.05, boxShadow: "0px 10px 30px rgba(0, 162, 255, 0.3)" }}
-              className="relative bg-white rounded-xl shadow-lg p-6 border border-gray-200 backdrop-blur-lg transition-all"
+              whileHover={{ scale: 1.05 }}
+              className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-shadow duration-300 border-t-4 border-blue-400"
             >
-              {/* Service Image */}
-              <div className="w-24 h-24 mx-auto">
+              <div className="w-20 h-20 mx-auto mb-5">
                 <Image
                   src={service.image}
                   alt={service.title}
-                  width={100}
-                  height={100}
+                  width={80}
+                  height={80}
                   className="w-full h-full object-contain"
                 />
               </div>
 
-              {/* Service Title & Description */}
-              <h2 className="text-2xl font-semibold text-blue-600 mt-4">{service.title}</h2>
-              <p className="mt-3 text-gray-700 text-sm leading-relaxed">{service.content}</p>
+              <h2 className="text-xl font-bold text-blue-600 mb-3">
+                {service.title}
+              </h2>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                {service.content}
+              </p>
             </motion.div>
           ))}
         </div>

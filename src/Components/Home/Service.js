@@ -1,36 +1,36 @@
 // pages/services.js
 import React from 'react';
-import img1 from '../../assets/images/bbps.png';
+import img1 from '../../assets/images/bbps.jpeg';
 import img2 from '../../assets/images/pan.png';
-import img3 from '../../assets/images/recharge.png';
+import img3 from '../../assets/images/Multi.jpeg';
 import img4 from '../../assets/images/money.png';
-import img5 from '../../assets/images/aeps.png';
+import img5 from '../../assets/images/recharge.png';
 import Image from 'next/image';
 
 const servicesData = [
   {
-    title: 'BBPS',
-    content: 'The Bharat bill payment system is a Reserve Bank of India (RBI) conceptualised system driven by National Payments Corporation of India (NPCI).',
+    title: 'Reporting and Analytics',
+    content: 'We are offer dashboards and reporting tools that provide insights into sales performance, transaction history, and customer behavior, aiding in business decision-making.',
     image: img1,
   },
+  // {
+  //   title: 'Integration and Developer Tools',
+  //   content: 'They offer APIs, SDKs, and plugins to integrate payment processing into websites, mobile apps, and e-commerce platforms, facilitating seamless transactions.',
+  //   image: img2,
+  // },
   {
-    title: 'PAN Card',
-    content: 'A PAN card is a document that no taxpayer can do without. Besides being compulsory in order to file your Income Tax returns.',
-    image: img2,
-  },
-  {
-    title: 'Recharge',
-    content: 'collectswift currently provide Recharge facility to all Leading telecom operator mobile users Like BSNL, Reliance-Jio, Airtel, Vodafone, Idea, Telenor . . .',
+    title: 'Multi-Channel Payment Acceptance',
+    content: 'Online Payments: digital wallets, and bank transfers. Mobile Payments: Mobile apps and QR code-based payments.',
     image: img3,
   },
   {
-    title: 'Money Transfer',
+    title: 'Money Transfer.',
     content: 'We offer high security instant money transfer API with free API integration. Use our API and transfer online money at any time from anywhere in India.',
     image: img4,
   },
   {
-    title: 'AEPS',
-    content: 'AEPS can send and receive payment from anywhere and anytime using aadhaar number and thumb impression.',
+    title: 'Security and Fraud Prevention',
+    content: 'Encryption: Securing data during transmission.Monitoring transactions for suspicious activity.',
     image: img5,
   },
   

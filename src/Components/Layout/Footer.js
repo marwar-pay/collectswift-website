@@ -47,7 +47,7 @@ const Footer = () => {
               <div className="footer-widget-box">
                 <h4 className="text-lg font-semibold text-blue-600 mb-4">Contact Us</h4>
                 <ul className="space-y-2">
-                  <li><Link href="tel:+91-9509494310" className="text-gray-600 hover:text-blue-500"><FontAwesomeIcon icon={faPhoneVolume} className="mr-2" /> +91-**********</Link></li>
+                  <li><Link href="tel:+91-9509494310" className="text-gray-600 hover:text-blue-500"><FontAwesomeIcon icon={faPhoneVolume} className="mr-2" /> +91-9509494310</Link></li>
                   <li className="text-gray-600"><FontAwesomeIcon icon={faMapLocationDot} className="mr-2" /> A-12 2nd Floor, Shree Kanhaiya Mansion, Jaipur, Rajasthan, 302021</li>
                   <li><Link href="mailto:support@collectswift.com" className="text-gray-600 hover:text-blue-500"><FontAwesomeIcon icon={faEnvelope} className="mr-2" /> support@CollectSwift.com</Link></li>
                 </ul>

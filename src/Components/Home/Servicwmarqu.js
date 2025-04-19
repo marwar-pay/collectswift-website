@@ -1,10 +1,10 @@
 import React from 'react';
 
-import img from '../../assets/images/rechargeicon.png';
-import img1 from '../../assets/images/panicon.png';
-import img2 from '../../assets/images/mticon.png';
-import img3 from '../../assets/images/bbpsicon.png';
-import img4 from '../../assets/images/aeps.png';
+import img from '../../assets/images/KYC2.jpeg';
+import img1 from '../../assets/images/Dsh.jpeg';
+import img2 from '../../assets/images/OR.jpeg';
+import img3 from '../../assets/images/KYC .png';
+import img4 from '../../assets/images/PY.jpeg';
 
 import Image from 'next/image';
 
