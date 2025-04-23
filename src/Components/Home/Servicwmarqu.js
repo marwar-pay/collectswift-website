@@ -4,7 +4,7 @@ import img from '../../assets/images/rechargeicon.png';
 import img1 from '../../assets/images/panicon.png';
 import img2 from '../../assets/images/mticon.png';
 import img3 from '../../assets/images/bbpsicon.png';
-import img4 from '../../assets/images/aeps.png';
+import img4 from '../../assets/images/Merchant.png';
 
 import Image from 'next/image';
 

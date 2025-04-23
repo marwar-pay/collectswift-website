@@ -4,36 +4,35 @@ import img1 from '../../assets/images/bbps.png';
 import img2 from '../../assets/images/pan.png';
 import img3 from '../../assets/images/recharge.png';
 import img4 from '../../assets/images/money.png';
-import img5 from '../../assets/images/aeps.png';
+import img5 from '../../assets/images/Merchant.png';
 import Image from 'next/image';
 
 const servicesData = [
   {
-    title: 'BBPS',
-    content: 'The Bharat bill payment system is a Reserve Bank of India (RBI) conceptualised system driven by National Payments Corporation of India (NPCI).',
+    title: 'Payment Processing',
+    content: 'Facilitate seamless transactions with our advanced payment gateway solution, supporting credit/debit cards, UPI, net banking, and digital wallets. Enjoy 99.99% uptime with real-time payment processing and instant settlements.',
     image: img1,
   },
   {
-    title: 'PAN Card',
-    content: 'A PAN card is a document that no taxpayer can do without. Besides being compulsory in order to file your Income Tax returns.',
+    title: 'Secure Transactions',
+    content: 'Enterprise-grade security with 256-bit SSL encryption and PCI-DSS compliance. Protect transactions with 3D Secure authentication, tokenization, and advanced fraud detection systems.',
     image: img2,
   },
   {
-    title: 'Recharge',
-    content: 'collectswift currently provide Recharge facility to all Leading telecom operator mobile users Like BSNL, Reliance-Jio, Airtel, Vodafone, Idea, Telenor . . .',
+    title: 'API Integration',
+    content: 'Easy-to-integrate REST APIs and SDKs for seamless platform integration. Developer-friendly documentation with sandbox environment for testing and customizable checkout experiences.',
     image: img3,
   },
   {
-    title: 'Money Transfer',
-    content: 'We offer high security instant money transfer API with free API integration. Use our API and transfer online money at any time from anywhere in India.',
+    title: 'Global Payments',
+    content: 'Process international payments with multi-currency support across 150+ countries. Features include dynamic currency conversion, cross-border transactions, and SWIFT/SEPA compatibility.',
     image: img4,
   },
   {
-    title: 'AEPS',
-    content: 'AEPS can send and receive payment from anywhere and anytime using aadhaar number and thumb impression.',
+    title: 'Merchant Services',
+    content: 'Complete merchant management solutions including instant onboarding, smart dashboard analytics, automated reconciliation, and chargeback management. Real-time reporting for all transactions.',
     image: img5,
   },
-  
 ];
 
 const Services = () => {
