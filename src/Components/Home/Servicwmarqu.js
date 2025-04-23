@@ -1,18 +1,10 @@
 import React from 'react';
 
-<<<<<<< HEAD
 import img from '../../assets/images/rechargeicon.png';
 import img1 from '../../assets/images/panicon.png';
 import img2 from '../../assets/images/mticon.png';
 import img3 from '../../assets/images/bbpsicon.png';
 import img4 from '../../assets/images/Merchant.png';
-=======
-import img from '../../assets/images/KYC2.jpeg';
-import img1 from '../../assets/images/Dsh.jpeg';
-import img2 from '../../assets/images/OR.jpeg';
-import img3 from '../../assets/images/KYC .png';
-import img4 from '../../assets/images/PY.jpeg';
->>>>>>> 3b20ea5aa85e39840e7695d3c74245c1fbb970eb
 
 import Image from 'next/image';
 

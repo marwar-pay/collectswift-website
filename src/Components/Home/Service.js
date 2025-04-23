@@ -4,11 +4,7 @@ import img1 from '../../assets/images/bbps.jpeg';
 import img2 from '../../assets/images/pan.png';
 import img3 from '../../assets/images/Multi.jpeg';
 import img4 from '../../assets/images/money.png';
-<<<<<<< HEAD
 import img5 from '../../assets/images/Merchant.png';
-=======
-import img5 from '../../assets/images/recharge.png';
->>>>>>> 3b20ea5aa85e39840e7695d3c74245c1fbb970eb
 import Image from 'next/image';
 
 const servicesData = [
@@ -16,10 +12,6 @@ const servicesData = [
 <<<<<<< HEAD
     title: 'Payment Processing',
     content: 'Facilitate seamless transactions with our advanced payment gateway solution, supporting credit/debit cards, UPI, net banking, and digital wallets. Enjoy 99.99% uptime with real-time payment processing and instant settlements.',
-=======
-    title: 'Reporting and Analytics',
-    content: 'We are offer dashboards and reporting tools that provide insights into sales performance, transaction history, and customer behavior, aiding in business decision-making.',
->>>>>>> 3b20ea5aa85e39840e7695d3c74245c1fbb970eb
     image: img1,
   },
   // {
@@ -28,7 +20,6 @@ const servicesData = [
   //   image: img2,
   // },
   {
-<<<<<<< HEAD
     title: 'Secure Transactions',
     content: 'Enterprise-grade security with 256-bit SSL encryption and PCI-DSS compliance. Protect transactions with 3D Secure authentication, tokenization, and advanced fraud detection systems.',
     image: img2,
@@ -46,20 +37,6 @@ const servicesData = [
   {
     title: 'Merchant Services',
     content: 'Complete merchant management solutions including instant onboarding, smart dashboard analytics, automated reconciliation, and chargeback management. Real-time reporting for all transactions.',
-=======
-    title: 'Multi-Channel Payment Acceptance',
-    content: 'Online Payments: digital wallets, and bank transfers. Mobile Payments: Mobile apps and QR code-based payments.',
-    image: img3,
-  },
-  {
-    title: 'Money Transfer.',
-    content: 'We offer high security instant money transfer API with free API integration. Use our API and transfer online money at any time from anywhere in India.',
-    image: img4,
-  },
-  {
-    title: 'Security and Fraud Prevention',
-    content: 'Encryption: Securing data during transmission.Monitoring transactions for suspicious activity.',
->>>>>>> 3b20ea5aa85e39840e7695d3c74245c1fbb970eb
     image: img5,
   },
 ];
