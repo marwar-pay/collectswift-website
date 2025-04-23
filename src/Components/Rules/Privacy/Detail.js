@@ -1,57 +1,66 @@
 // pages/privacy-policy.js
 
-import React from 'react';
+import Head from 'next/head';
 
-const PrivacyPolicy = () => {
+export default function PrivacyPolicy() {
   return (
-    <div className="container mx-auto p-6">
-      <div className="bg-white rounded-lg shadow-lg p-8">
-        <h3 className="text-2xl font-semibold mb-4">Privacy Policy</h3>
-        <p className="mb-4">
-          Welcome to the Privacy Policy of collectswift. Protecting your privacy is a top priority for us. This policy outlines how we collect, use, and safeguard your personal information when you interact with our products and services.
-        </p>
+    <>
+      <Head>
+        <title>Privacy Policy | CollectSwift</title>
+        <meta name="description" content="Learn how CollectSwift collects, uses, and protects your personal data." />
+      </Head>
 
-        <h4 className="text-lg font-semibold mt-6">Information Collection</h4>
-        <p className="mb-4">
-          At collectswift, we collect information from you to enhance your experience with our services. This includes details such as your preferences for mobile recharges, preferred travel options, and favorite deals or offers. We gather this information through your interactions with our platform.
-        </p>
+      <main className="max-w-4xl mx-auto px-4 py-10 text-gray-800">
+        <div className="bg-white rounded-2xl shadow-lg p-8">
+          <h1 className="text-3xl font-bold mb-6">Privacy Policy</h1>
 
-        <h4 className="text-lg font-semibold mt-6">Technical Information</h4>
-        <p className="mb-4">
-          When you use our services, we automatically collect technical information such as your browser type, IP address, and operating system. This helps us improve our backend technology to provide you with a seamless user experience.
-        </p>
+          <p className="mb-6">
+            At CollectSwift, protecting your privacy is our top priority. This Privacy Policy explains how we collect, use, and safeguard your personal information when you use our services and interact with our platform.
+          </p>
 
-        <h4 className="text-lg font-semibold mt-6">Purpose of Collection and Use</h4>
-        <p className="mb-4">
-          We use your personal information to understand your preferences and behavior. This allows us to tailor our services to better meet your needs and provide personalized offers. Technical information is utilized to enhance the performance and security of our platform, ensuring a reliable service for your continued satisfaction.
-        </p>
+          <h2 className="text-xl font-semibold mb-2">Information Collection</h2>
+          <p className="mb-6">
+            We collect information such as your preferences for mobile recharges, favorite services, and user behavior patterns to personalize your experience. This data is gathered through your direct interactions with our web and mobile platforms.
+          </p>
 
-        <h4 className="text-lg font-semibold mt-6">Access and Update</h4>
-        <p className="mb-4">
-          You have the right to access and update your personal information through our platform. Should you encounter any difficulties, our customer support team is available to assist you.
-        </p>
+          <h2 className="text-xl font-semibold mb-2">Technical Information</h2>
+          <p className="mb-6">
+            Our systems automatically collect technical data such as your browser type, IP address, device type, and operating system. This information helps us enhance platform functionality and optimize the user experience.
+          </p>
 
-        <h4 className="text-lg font-semibold mt-6">Data Security</h4>
-        <p className="mb-4">
-          We prioritize the security of your personal information. As a GeoTrust certified service, collectswift employs rigorous security measures to protect your data from unauthorized access, ensuring a safe environment for your online transactions.
-        </p>
+          <h2 className="text-xl font-semibold mb-2">Purpose of Collection and Use</h2>
+          <p className="mb-6">
+            We use your data to personalize services, provide relevant offers, improve platform performance, and maintain security. Your preferences allow us to deliver a tailored and efficient user experience.
+          </p>
 
-        <h4 className="text-lg font-semibold mt-6">Data Retention</h4>
-        <p className="mb-4">
-          We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy unless a longer retention period is required or permitted by law. Upon request, we will delete or anonymize your information, except where we are legally obligated to retain certain data.
-        </p>
+          <h2 className="text-xl font-semibold mb-2">Access and Update</h2>
+          <p className="mb-6">
+            You may access or update your personal information directly through your user account. If you face any issues, our support team is always available to assist you.
+          </p>
 
-        <h4 className="text-lg font-semibold mt-6">Policy Changes</h4>
-        <p className="mb-4">
-          Our Privacy Policy may be updated periodically to reflect changes in regulatory requirements or advancements in our services. Any revisions will be communicated on this page. We encourage you to review this policy regularly to stay informed about how we protect your privacy.
-        </p>
+          <h2 className="text-xl font-semibold mb-2">Data Security</h2>
+          <p className="mb-6">
+            As a GeoTrust-certified service, CollectSwift implements industry-standard security practices to protect your personal data from unauthorized access or misuse.
+          </p>
 
-        <p className="mt-4">
-          For further inquiries regarding our Privacy Policy or to exercise your rights under applicable data protection laws, please contact collectswift.
-        </p>
-      </div>
-    </div>
+          <h2 className="text-xl font-semibold mb-2">Data Retention</h2>
+          <p className="mb-6">
+            We retain personal data only as long as needed for the purposes outlined in this policy, or as required by law. Upon request, we will delete or anonymize your data unless we are legally obligated to retain it.
+          </p>
+
+          <h2 className="text-xl font-semibold mb-2">Policy Changes</h2>
+          <p className="mb-6">
+            We may update this Privacy Policy periodically. Changes will be posted here, and we encourage users to review this page regularly to stay informed about how their data is protected.
+          </p>
+
+          <p className="mt-4">
+            For questions regarding this policy or to exercise your rights under applicable data protection laws, please contact us at{' '}
+            <a href="mailto:collectswift@gmail.com" className="text-blue-600 underline">
+              collectswift@gmail.com
+            </a>.
+          </p>
+        </div>
+      </main>
+    </>
   );
-};
-
-export default PrivacyPolicy;
+}

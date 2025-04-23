@@ -4,7 +4,7 @@ import about2 from '../../assets/images/about2.jpg';
 
 function Intro() {
   const [text, setText] = useState('');
-  const fullText = "Better Services Provided by CollectSwift - At CollectSwift, we offer secure and seamless financial solutions, including Aadhaar Enabled Payment System (AEPS), Domestic Money Transfer, Mobile & DTH Recharge, and Bill Payment Services at the most competitive rates. Say goodbye to long queues and experience hassle-free transactions from anywhere in India with CollectSwift’s reliable and efficient fintech services.";
+  const fullText = "At CollectSwift, we power businesses with secure, fast, and scalable payment gateway solutions. Whether you're accepting online payments via UPI, net banking, or E-wallets, our robust infrastructure ensures seamless transactions across all platforms. real-time settlements, and developer-friendly APIs, CollectSwift helps you simplify payment processing and elevate your customers’ checkout experience. Join thousands of businesses across India in transforming the way payments are made—swiftly and securely.";
   
   useEffect(() => {
     let i = 0;
@@ -26,7 +26,7 @@ function Intro() {
       
       <div className="w-full sm:w-1/2 mb-4 sm:mb-0 relative z-10" data-aos="fade-up">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold animate-slideInLeft">
-        All Your Financial Solutions, Seamlessly Integrated into One Smart Platform!
+        Smarter Payment Solutions by CollectSwift
         </h1>
         <p className="pt-10 text-gray-700 animate-fadeIn delay-200">
           {text}

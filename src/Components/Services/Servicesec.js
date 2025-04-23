@@ -1,40 +1,41 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
-import img1 from "../../assets/images/flight_booking_1.png";
-import img2 from "../../assets/images/aadharcard.png";
-import img3 from "../../assets/images/Money-Transfer-p.png";
-import img4 from "../../assets/images/postpaid.png";
+import img1 from "../../assets/images/Prcs.jpeg";
+import img2 from "../../assets/images/KYC .png";
+import img3 from "../../assets/images/Settlement.png";
+import img4 from "../../assets/images/bbps.jpeg";
 
 const services = [
   {
-    title: "Flight Ticket Booking",
+    title: "Payment Processing",
     description:
       "Seamless search experience, lower fares, and a simple booking process make our portal highly demanding among distributors and agents.",
-    extra: "Planning a trip? Book flights effortlessly with us!",
+    // extra: "Planning a trip? Book flights effortlessly with us!",
     points: ["Single Journey", "Round Trip Journey", "Connecting Flights"],
     image: img1,
   },
   {
-    title: "Aadhar Enabled Payment System (AEPS)",
+    title: "Merchant Onboarding & KYC Verification",
     description:
-      "Offer banking services using just the customer’s fingerprint.",
-    extra: "AEPS allows financial transactions using Aadhaar and biometrics.",
-    points: ["Cash Withdrawal", "Balance Inquiry", "Mini Statement"],
+      "Get started quickly with a smooth onboarding process and real-time KYC validation..",
+    // extra: "Instant Account Setup",
+    points: ["Instant Account Setup", "Compliance Assistance", "PAN/Aadhaar Verification"],
     image: img2,
   },
   {
-    title: "Direct Money Transfer",
+    title: "Payout Services",
     description:
-      "Send money instantly across India with just an account number and IFSC code.",
-    extra: "Fast, secure, and hassle-free transactions.",
+      "Disburse payments instantly to vendors, customers, or employees—24x7.",
+    // extra: "Fast, secure, and hassle-free transactions.",
+    points: ["Bulk Payouts", "NEFT, IMPS, UPI Transfers", "Automated Reconciliation"],
     image: img3,
   },
   {
-    title: "Recharge (Prepaid & Postpaid)",
+    title: " Reporting & Analytics Dashboard",
     description:
-      "Recharge or pay bills with discounts credited directly to your wallet.",
-    extra: "Quick and seamless mobile recharges and bill payments.",
-    points: ["Prepaid Recharge", "Postpaid Bill Payments"],
+      "Gain real-time insights into your sales, revenue, and transactions through our intuitive dashboard.",
+    // extra: "Quick and seamless mobile recharges and bill payments.",
+    points: ["Business Performance Insights", "Real-Time Transaction Monitoring", "Custom Reports"],
     image: img4,
   },
 ];

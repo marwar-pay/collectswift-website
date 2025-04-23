@@ -15,7 +15,7 @@ const PlatformSection = () => {
               <Image src={img1} alt="Web Development" width={64} height={64} />
             </div>
             <h5 className="services-title text-lg font-semibold mb-2 text-blue-600">Web Development</h5>
-            <p className="text-gray-700">Recharge using our Web Application with just a few clicks. Secure wallet options available.</p>
+            <p className="text-gray-700"> transact in just a few clicks with a seamless, intuitive interface. Enjoy secure wallet options and multiple payment methods—built for speed and trust.</p>
             <div className="mt-4">
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center justify-center">
                 <span>Read More</span>
@@ -27,7 +27,7 @@ const PlatformSection = () => {
               <Image src={img} alt="Android App" width={64} height={64} />
             </div>
             <h5 className="services-title text-lg font-semibold mb-2 text-blue-600">Android App</h5>
-            <p className="text-gray-700">Recharge with ease using our Android Application. Secure and user-friendly experience.</p>
+            <p className="text-gray-700">Enjoy a secure and effortless payment experience with our user-friendly Android application. Fast, reliable, and designed for seamless transactions on the go.</p>
             <div className="mt-4">
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center justify-center">
                 <span>Read More</span>
@@ -39,7 +39,7 @@ const PlatformSection = () => {
               <Image src={img2} alt="SMS" width={64} height={64} />
             </div>
             <h5 className="services-title text-lg font-semibold mb-2 text-blue-600">SMS</h5>
-            <p className="text-gray-700">Recharge offline using our SMS Service. Simple and convenient for all users.</p>
+            <p className="text-gray-700">offline using our SMS Service. Simple and convenient for all users.</p>
             <div className="mt-4">
               <a href="#" className="text-blue-500 hover:text-blue-700 font-semibold flex items-center justify-center">
                 <span>Read More</span>
