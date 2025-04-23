@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import img1 from "../../assets/images/bbps.png";
+import img1 from "../../assets/images/Dsh.jpeg";
 import img2 from "../../assets/images/pan.png";
-import img3 from "../../assets/images/recharge.png";
+import img3 from "../../assets/images/Prcs.jpeg";
 import img4 from "../../assets/images/money.png";
-import img5 from "../../assets/images/aeps.png";
+import img5 from "../../assets/images/recharge.png";
 
 const servicesData = [
   {
@@ -14,12 +14,12 @@ const servicesData = [
       "We are offer dashboards and reporting tools that provide insights into sales performance, transaction history, and customer behavior, aiding in business decision-making.",
     image: img1,
   },
-  // {
-  //   title: " Integration and Developer Tools",
-  //   content:
-  //     "They offer APIs, SDKs, and plugins to integrate payment processing into websites, mobile apps, and e-commerce platforms, facilitating seamless transactions.",
-  //   image: img2,
-  // },
+  {
+    title: " Integration and Developer Tools",
+    content:
+      "They offer APIs, SDKs, and plugins to integrate payment processing into websites, mobile apps, and e-commerce platforms, facilitating seamless transactions.",
+    image: img2,
+  },
   {
     title: "Multi-Channel Payment Acceptance",
     content:

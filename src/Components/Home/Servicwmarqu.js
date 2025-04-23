@@ -1,10 +1,10 @@
 import React from 'react';
 
-import img from '../../assets/images/rechargeicon.png';
-import img1 from '../../assets/images/panicon.png';
-import img2 from '../../assets/images/mticon.png';
-import img3 from '../../assets/images/bbpsicon.png';
-import img4 from '../../assets/images/Merchant.png';
+import img1 from "../../assets/images/Dsh.jpeg";
+import img2 from "../../assets/images/pan.png";
+import img3 from "../../assets/images/Prcs.jpeg";
+import img4 from "../../assets/images/money.png";
+import img from "../../assets/images/recharge.png";
 
 import Image from 'next/image';
 
@@ -18,75 +18,75 @@ function ServiceMarque() {
         <Image
              src={img}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img1}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img2}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img3}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img4}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
             
               <Image
              src={img}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img1}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img2}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
              <Image
              src={img3}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
-             <Image
+             {/* <Image
              src={img4}
              alt='service_icons'
-              width={500}
-              height={300}
+              width={100}
+              height={100}
                className="h-full object-cover rounded-t-lg sm:rounded-none sm:rounded-l-lg"
             />
-            
+             */}
     
       
       </div>

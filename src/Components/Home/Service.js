@@ -9,7 +9,7 @@ import Image from 'next/image';
 
 const servicesData = [
   {
-<<<<<<< HEAD
+
     title: 'Payment Processing',
     content: 'Facilitate seamless transactions with our advanced payment gateway solution, supporting credit/debit cards, UPI, net banking, and digital wallets. Enjoy 99.99% uptime with real-time payment processing and instant settlements.',
     image: img1,
