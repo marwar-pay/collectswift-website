@@ -84,7 +84,7 @@ const Header = () => {
                   {/* <Link href="https://retailer.collectswift.com/login" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
                     Retailor Login
                   </Link> */}
-                  <Link href="https://admin.collectswift.com" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
+                  <Link href="https://team.collectswift.com" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
                     Team Login
                   </Link>
                 </div>
