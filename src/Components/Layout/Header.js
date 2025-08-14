@@ -72,19 +72,19 @@ const Header = () => {
             <Link href="/contact" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
               <strong>Contact</strong>
             </Link>
-           <div className="relative">
+            <div className="relative">
               <button onClick={toggleDropdown} className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
                 <strong>Login</strong>
               </button>
               {isDropdownOpen && (
                 <div className="absolute left-0 w-40 bg-white shadow-lg z-10">
-                  <Link href="http://merchant.collectswift.com/login" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
-                    User Login
+                  <Link href="https://merchant.collectswift.com/" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
+                    User Login 
                   </Link>
-                  {/* <Link href="https://retailor.CollectSwift.com/login" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
-                  Retailor Login
+                  {/* <Link href="https://retailer.collectswift.com/login" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
+                    Retailor Login
                   </Link> */}
-                  <Link href="https://team.collectswift.com/" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
+                  <Link href="https://admin.collectswift.com" className="block px-4 py-2 text-gray-900 hover:text-blue-500 ">
                     Team Login
                   </Link>
                 </div>
